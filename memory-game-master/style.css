@@ -1,3 +1,4 @@
+/* images (cards) are 100px by 100px so can make a 3 by 4 size grid */
 .grid {
   display: flex;
   flex-wrap: wrap;
