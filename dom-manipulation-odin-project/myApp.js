@@ -32,3 +32,11 @@ anotherDiv.appendChild(heading1);
 const anotherP = document.createElement('p');
 anotherP.textContent = "ME TOO!";
 anotherDiv.appendChild(anotherP);
+
+// events
+const btn = document.getElementById('btn');
+btn.addEventListener('click', function(e) {
+    console.log(e);
+    console.log(e.target);
+    e.target.style.backgroundColor = 'blue';
+})
